@@ -7,83 +7,79 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f9f9f9;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
       color: #333;
     }
-    header {
-      background: #005f73;
-      color: white;
-      text-align: center;
-      padding: 2em;
-    }
-    header img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-bottom: 1em;
-    }
-    section {
+    .container {
       max-width: 800px;
-      margin: auto;
-      padding: 2em;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
-    h2 {
-      color: #005f73;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3em;
+    img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
     }
-    ul {
-      padding-left: 1.5em;
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 25px;
     }
     a {
-      color: #0077cc;
+      color: #3498db;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <img src="foto.jpg" alt="Foto Kelvin Pratama">
+  <div class="container">
+    <img src="foto.jpg.jpg" alt="Foto Kelvin Pratama" />
     <h1>Kelvin Pratama</h1>
-    <p>Bogor, Sentul, Jawa Barat</p>
-    <p>Email: Pratamakelvin276@gmail.com | Telp: +6283189293098</p>
-  </header>
+    <p>Email: <a href="mailto:Pratamakelvin276@gmail.com">Pratamakelvin276@gmail.com</a></p>
+    <p>Telepon: +62 831 8929 3098</p>
+    <p>Alamat: Bogor, Sentul, Jawa Barat</p>
 
-  <section>
-    <h2>Profil Singkat</h2>
-    <p>
-      Saya adalah mahasiswa aktif di Universitas Tazkia Bogor, saat ini mengambil program studi Manajemen Bisnis Syariah.
-      Sejak SMP saya telah aktif dalam dunia marketing baik secara offline maupun online (marketplace). Dunia bisnis menjadi bagian dari keseharian saya hingga saat ini.
-    </p>
+    <div class="section">
+      <h2>Profil Singkat</h2>
+      <p>Saya adalah mahasiswa aktif di Universitas Tazkia Bogor yang mengambil program studi Manajemen Bisnis Syariah. Saya aktif di dunia marketing online dan offline sejak kelas 1 SMP, dan sangat tertarik di dunia bisnis hingga saat ini.</p>
+    </div>
 
-    <h2>Pendidikan</h2>
-    <ul>
-      <li>Universitas Tazkia – Manajemen Bisnis Syariah</li>
-    </ul>
+    <div class="section">
+      <h2>Pendidikan</h2>
+      <p>Universitas Tazkia</p>
+    </div>
 
-    <h2>Pengalaman</h2>
-    <ul>
-      <li>Jasa Jual Beli Handphone</li>
-      <li>Reseller Regarsport Jersey (2023–2024)</li>
-      <li>Marketplace pribadi @Refindthrift</li>
-      <li>Website Portfolio – Menggunakan React & Tailwind</li>
-    </ul>
+    <div class="section">
+      <h2>Pengalaman</h2>
+      <ul>
+        <li>Jasa Jual Beli Handphone</li>
+        <li>Reseller Regarsport Jersey (2023–2024)</li>
+        <li>Marketplace Pribadi: <strong>@Refindthrift</strong></li>
+        <li>Website Portofolio Pribadi – Dibuat dengan React & Tailwind</li>
+      </ul>
+    </div>
 
-    <h2>Skill</h2>
-    <ul>
-      <li>Marketing</li>
-      <li>Editing</li>
-      <li>Public Speaking</li>
-      <li>Komunikasi & Problem Solving</li>
-    </ul>
+    <div class="section">
+      <h2>Kemampuan</h2>
+      <ul>
+        <li>Marketing</li>
+        <li>Editing</li>
+        <li>Public Speaking</li>
+        <li>Komunikasi & Problem Solving</li>
+      </ul>
+    </div>
 
-    <h2>Media Sosial</h2>
-    <ul>
-      <li><a href="https://www.instagram.com/refindthrift_/" target="_blank">@refindthrift_ (Instagram)</a></li>
-    </ul>
-  </section>
-
+    <div class="section">
+      <h2>Media Sosial</h2>
+      <p>Instagram: <a href="https://www.instagram.com/refindthrift_/" target="_blank">@refindthrift_</a></p>
+    </div>
+  </div>
 </body>
 </html>
